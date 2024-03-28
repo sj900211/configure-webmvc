@@ -27,7 +27,7 @@ import run.freshr.common.properties.WebMvcProperties;
  */
 @Configuration(proxyBeanMethods = false)
 @EnableConfigurationProperties(WebMvcProperties.class)
-public class WebMvcConditional {
+public class WebMvcAutoConfiguration {
 
   /**
    * Web MVC 데이터 객체 설정

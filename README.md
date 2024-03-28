@@ -3,7 +3,7 @@
 > - ## [WebMvcConfiguration](./src/main/java/run/freshr/common/configurations/WebMvcConfiguration.java)
 >> Web MVC 설정  
 >> CORS 설정 외에는 없음
-> - ## [WebMvcConditional](./src/main/java/run/freshr/common/configurations/WebMvcConditional.java)
+> - ## [WebMvcAutoConfiguration](./src/main/java/run/freshr/common/configurations/WebMvcAutoConfiguration.java)
 >> WebMvcProperties 에 설정한 값으로 ExceptionsData 를 빌드한다.
 > - ## [WebMvcProperties](./src/main/java/run/freshr/common/properties/WebMvcProperties.java)
 >> 프로젝트에 따라 변경되는 Web MVC 항목의 정보를 변경할 수 있는 Properties 정의  
